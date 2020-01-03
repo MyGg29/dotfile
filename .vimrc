@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'digitaltoad/vim-pug'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -59,7 +60,8 @@ set expandtab
 set backspace=indent,eol,start
 set hidden
 set incsearch
+set nowrap
 
 "close tags
-inoremap <buffer> > ></<C-x><C-o><C-y><C-o>%<CR><C-o>O
-ab teh the
+"inoremap <buffer> > ></<C-x><C-o><C-y><C-o>%<CR><C-o>O
+"ab teh the
