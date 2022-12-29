@@ -32,6 +32,7 @@ let mapleader = " "
 
 au FileType c,cpp,ts,js,json call rainbow#load()
 
+set statusline+=%f
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

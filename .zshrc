@@ -163,3 +163,18 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
+
+export JEST_WORKER_ID=1
+alias log="git log"
+
+function upstream(){
+    BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    git push --set-upstream origin $BRANCH
+}
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
+path+=('/home/gwendal/.cargo/bin')
+export PATH

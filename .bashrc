@@ -124,3 +124,9 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(mcfly init bash)"
 source ~/.profile
+alias tf=terraform
+alias log=git log
+alias python=python3
+
+
+
